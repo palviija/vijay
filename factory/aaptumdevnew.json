@@ -1,0 +1,9 @@
+{
+	"name": "aaptumdevnew",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3187eaee-67b3-4a81-8c18-31dacfb0ea61",
+		"tenantId": "c8d8e2d4-0811-4764-a3a0-e3b5aed0c3e1"
+	}
+}
