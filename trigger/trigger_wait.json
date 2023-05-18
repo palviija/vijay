@@ -1,0 +1,24 @@
+{
+	"name": "trigger_wait",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 60,
+				"startTime": "2023-05-18T13:23:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
